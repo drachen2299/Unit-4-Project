@@ -13,8 +13,8 @@
   }
   
   [class^=col] {
-    margin-top: 10px;
-    flex-basis: 100%;
+    margin-top: $marg-tp;
+    flex-basis: $all;
     min-height: 25px;
     padding: 10px;
     border-radius: 5px;

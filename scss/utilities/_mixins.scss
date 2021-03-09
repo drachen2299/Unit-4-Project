@@ -8,3 +8,8 @@
     margin-left: auto; //When its passed in as a mixin
     margin-right: auto;
 }
+
+@mixin displayadv {
+    margin-top: $marg-tp;
+    max-width: $all;
+}
