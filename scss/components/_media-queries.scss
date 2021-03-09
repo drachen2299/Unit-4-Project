@@ -1,19 +1,15 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+@media (min-width: $break-tablet) {
 
     .container {
-      max-width: 1400px;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+      max-width: $maximum-width-px;
+      @include display;
     }
     
     .centered {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+      @include display;
     }
     
     .row {

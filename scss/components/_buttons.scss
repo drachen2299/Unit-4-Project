@@ -5,29 +5,44 @@
 .btn {
     margin-top: 15px;
     width: 100%;
-    color: #fff;
+    color: $button-txt-main;
     border: none;
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+    &:hover.default {
+        @include hover($defaults-color);
+    }
+    &:hover.success {
+        @include hover($successes-color);
+    }
+    &:hover.error {
+        @include hover($errors-color);
+    }
+    &:hover.warning {
+        @include hover($warnings-color);
+    }
+    &:hover.info {
+        @include hover($infos-color);
+    }
   }
   
   .default {
-    background-color: #51ddfc;
+    background-color: $defaults-color;
   }
   
   .error {
-    background-color: #e4757a;
+    background-color: $errors-color;
   }
   
   .info {
-    background-color: #927bc1;
+    background-color: $infos-color;
   }
   
   .success {
-    background-color: #63cc82;
+    background-color: $successes-color;
   }
   
   .warning {
-    background-color: #fd7856;
+    background-color: $warnings-color;
   }

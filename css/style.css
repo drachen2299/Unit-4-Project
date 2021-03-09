@@ -5,6 +5,9 @@
 /* Utilities Imports */
 /* ============================================= */
 /* ============================================= */
+/*              Variables                            */
+/* ============================================= */
+/* ============================================= */
 /* Base Imports */
 /* ============================================= */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -386,6 +389,12 @@ a {
   font-weight: 700;
 }
 
+.link:hover {
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+  background-color: #9cecfd;
+}
+
 .blockquote {
   font-size: 1.5em;
   font-weight: 300;
@@ -410,6 +419,36 @@ a {
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+}
+
+.btn:hover.default {
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+  background-color: #9cecfd;
+}
+
+.btn:hover.success {
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+  background-color: #9ddfb0;
+}
+
+.btn:hover.error {
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+  background-color: #f1b5b8;
+}
+
+.btn:hover.warning {
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+  background-color: #feb4a2;
+}
+
+.btn:hover.info {
+  -webkit-transition: background-color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
+  background-color: #bdafd9;
 }
 
 .default {

@@ -1,0 +1,10 @@
+@mixin hover($lightPct) {   //Uses the lighten() sass function to lighten the 
+    transition: $button-transition; //Color on hovers
+    background-color: lighten($lightPct, 15%);
+}
+
+@mixin display {    //This was originally written as an @extend in Images and
+    display: block; //Media queries, but it cleans up the sass
+    margin-left: auto; //When its passed in as a mixin
+    margin-right: auto;
+}
