@@ -3,13 +3,18 @@
     background-color: lighten($lightPct, 15%);
 }
 
-@mixin display {    //This was originally written as an @extend in Images and
-    display: block; //Media queries, but it cleans up the sass
-    margin-left: auto; //When its passed in as a mixin
-    margin-right: auto;
+@mixin display (
+    $disp: block,
+    $marg-l: auto,
+    $marg-r: auto,
+    $max-w: null,
+    $max-h: null,
+    $marg-tp: null) {       //This was originally written as an @extend 
+    display: $disp;         //Media query, but it cleans up the sass
+    margin-left: $marg-l;   //When its passed in as a mixin
+    margin-right: $marg-r;
+    max-width: $max-w;
+    max-height: $max-h;
+    margin-top: $marg-tp;
 }
 
-@mixin displayadv {
-    margin-top: $marg-tp;
-    max-width: $all;
-}

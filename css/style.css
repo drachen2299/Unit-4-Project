@@ -519,10 +519,8 @@ a {
   padding: 10px 0;
   display: block;
   width: 100%;
-  -webkit-transition: background-color .2s ease-in-out, 
- color .2s ease-in-out;
-  transition: background-color .2s ease-in-out, 
- color .2s ease-in-out;
+  -webkit-transition: background-color .2s ease-in-out,  color .2s ease-in-out;
+  transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
 .nav-link:hover {
@@ -537,17 +535,17 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
   max-width: 100%;
   max-height: 100%;
+  margin-top: 10px;
 }
 
 .img-frame {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
   max-width: 100%;
+  margin-top: 10px;
   padding: 13px;
   border: 1px solid #ccc;
 }
@@ -643,10 +641,10 @@ a {
 /* ============================================= */
 @media (min-width: 768px) {
   .container {
-    max-width: 1400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 1400px;
   }
   .centered {
     display: block;

@@ -4,12 +4,11 @@
 @media (min-width: $break-tablet) {
 
     .container {
-      max-width: $maximum-width-px;
-      @include display;
+      @include display ($max-w: $maximum-width-px);
     }
     
     .centered {
-      @include display;
+      @include display();
     }
     
     .row {
